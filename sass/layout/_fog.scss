@@ -2,7 +2,7 @@
 .fog {
     position: relative;
     pointer-events:none;
-    height: 100vh;
+    height: 1080px;
     width: 100%;
     
     background-color: #000;
@@ -19,7 +19,7 @@
     &__img {
       position: absolute;
    
-      height: 100vh;
+      height: 1080px;
       width: 300vw;
   
       &--first {
