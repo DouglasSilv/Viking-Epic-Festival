@@ -1,0 +1,30 @@
+.calendar-box {
+    background-color: rgba($color-white, .8);
+    font-size: 1.5rem;
+    padding: 2.5rem;
+    text-align: center;
+    border-radius: 8px;
+    border: .2rem solid $color-primary;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+    transition: transform .3s;
+
+    .heading-tertiary {
+        color: $color-primary-green;
+    }
+    img {
+        width: 20rem;
+        transition: all .2s;
+        &:hover {
+            box-shadow: 0px 0px 32px 8px $color-primary;
+            z-index: 20;
+            transform: scale(1.15);
+        }
+    }
+}
+
+.calendar-box--row {
+    display: flex; 
+    .col {
+        padding: 0 2rem;
+    }
+}

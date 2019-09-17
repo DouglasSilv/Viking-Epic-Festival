@@ -108,8 +108,21 @@ body {
 .u-margin-top-big {
   margin-top: 8rem !important; }
 
+.u-margin-top-small {
+  margin-top: 1.5rem !important; }
+
 .u-margin-top-huge {
   margin-top: 10rem !important; }
+
+.u-text-light {
+  color: #f7f7f7; }
+
+.u-align-contente-center {
+  justify-content: center;
+  display: flex; }
+
+.u-text-color-primary {
+  color: #123335; }
 
 .btn, .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -226,6 +239,30 @@ body {
     color: transparent; }
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.03); }
+
+.calendar-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  text-align: center;
+  border-radius: 8px;
+  border: 0.2rem solid #123335;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  transition: transform .3s; }
+  .calendar-box .heading-tertiary {
+    color: #013c3f; }
+  .calendar-box img {
+    width: 20rem;
+    transition: all .2s; }
+    .calendar-box img:hover {
+      box-shadow: 0px 0px 32px 8px #123335;
+      z-index: 20;
+      transform: scale(1.15); }
+
+.calendar-box--row {
+  display: flex; }
+  .calendar-box--row .col {
+    padding: 0 2rem; }
 
 .card {
   perspective: 150rem;
@@ -690,6 +727,15 @@ body {
   transform: skewY(-7deg);
   margin-top: -10rem; }
   .section-features > * {
+    transform: skewY(7deg); }
+
+.section-calendar {
+  padding: 10rem 0;
+  background-image: linear-gradient(to right bottom, rgba(1, 13, 13, 0.8), rgba(1, 60, 63, 0.8)), url(../img/vikings-1.jpg);
+  background-size: cover;
+  transform: skewY(-7deg);
+  margin-top: -10rem; }
+  .section-calendar > * {
     transform: skewY(7deg); }
 
 .section-tours {
