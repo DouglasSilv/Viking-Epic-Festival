@@ -68,7 +68,6 @@
             background-image: linear-gradient(120deg, transparent 0%, transparent 50%, $color-white 50%);
             background-size: 250%;
             transition: all .4s;
-
             span {
                 margin-right: 1.5rem;
                 display: inline-block;
@@ -144,5 +143,9 @@
     &__checkbox:checked + &__button &__icon::after {
         top: 0;
         transform: rotate(-135deg);
+    }
+
+    &__checkbox:checked ~ &__link {
+        pointer-events: none;
     }
 }

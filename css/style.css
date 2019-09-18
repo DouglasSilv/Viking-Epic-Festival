@@ -588,7 +588,7 @@ svg {
     left: 0; }
     .slide:nth-child(1) .slide__bg {
       left: 0;
-      background-image: url("../../img/epic2016.jpg"); }
+      background-image: url("../img/epic2016.jpg"); }
     .slide:nth-child(1) .slide__overlay-path {
       fill: #e99c7e; }
     @media (max-width: 991px) {
@@ -598,7 +598,7 @@ svg {
     left: 100%; }
     .slide:nth-child(2) .slide__bg {
       left: -50%;
-      background-image: url("../../img/epic2016.jpg"); }
+      background-image: url("../img/epic2016.jpg"); }
     .slide:nth-child(2) .slide__overlay-path {
       fill: #e1ccae; }
     @media (max-width: 991px) {
@@ -608,7 +608,7 @@ svg {
     left: 200%; }
     .slide:nth-child(3) .slide__bg {
       left: -100%;
-      background-image: url("../../img/epic2016.jpg"); }
+      background-image: url("../img/epic2016.jpg"); }
     .slide:nth-child(3) .slide__overlay-path {
       fill: #adc5cd; }
     @media (max-width: 991px) {
@@ -902,6 +902,9 @@ svg {
 .navigation__checkbox:checked + .navigation__button .navigation__icon::after {
   top: 0;
   transform: rotate(-135deg); }
+
+.navigation__checkbox:checked ~ .navigation__link {
+  pointer-events: none; }
 
 .fog {
   position: relative;
