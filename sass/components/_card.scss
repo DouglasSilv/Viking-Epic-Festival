@@ -32,7 +32,7 @@
             }
 
             &-3 {
-                background-image: linear-gradient(to right, $color-tertiary-light, $color-tertiary-dark);
+                background-image: linear-gradient(to right, $color-grey-dark-3, $color-tertiary-dark);
             }
         }
     }
@@ -54,15 +54,15 @@
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 
         &--1 {
-            background-image: linear-gradient(to right, $color-secondary-light, $color-secondary-dark), url(../img/nat-5.jpg);
+            background-image: linear-gradient(to right, $color-primary-dark, $color-primary-green), url(../img/epic2016.jpg);
         }
 
         &--2 {
-            background-image: linear-gradient(to right, $color-primary-dark, $color-primary-green), url(../img/nat-6.jpg);
+            background-image: linear-gradient(to right, $color-primary-dark, $color-primary-green), url(../img/epic2017.jpg);
         }
 
         &--3 {
-            background-image: linear-gradient(to right, $color-tertiary-light, $color-tertiary-dark), url(../img/nat-7.jpg);
+            background-image: linear-gradient(to right, $color-primary-dark, $color-primary-green), url(../img/epic2018.jpg);
         }
     }
 
@@ -91,7 +91,7 @@
         }
 
         &--3 {
-            background-image: linear-gradient(to right bottom, rgba($color-tertiary-light, .85), rgba($color-tertiary-dark, .85));
+            background-image: linear-gradient(to right bottom, rgba($color-grey-dark-3, .85), rgba($color-tertiary-dark, .85));
         }
     }
 
