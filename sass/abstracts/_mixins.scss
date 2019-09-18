@@ -5,3 +5,9 @@
         clear: both;
     }
 }
+
+@mixin mediaMaxWidth($w) {
+    @media (max-width: $w) {
+        @content;
+    }
+}
