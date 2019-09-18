@@ -43,6 +43,12 @@
 }
 
 .section-stories {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-grey-light-1, 0.8), 
+        rgba($color-grey-light-2, 0.8)), 
+        url(../img/vikings-1.jpg);
+    background-size: cover;
     padding: 15rem 0;
     position: relative;
 }

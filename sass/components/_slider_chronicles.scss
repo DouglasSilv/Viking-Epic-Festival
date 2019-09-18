@@ -126,16 +126,16 @@ svg {
 
         .slide__bg {
             left: 0;
-            background-image: url('../../img/epic2016.jpg');
+            background-image: url('../img/epic2016.jpg');
         }
 
         .slide__overlay-path {
-            fill: rgb(233, 156, 126);
+            fill: $color-primary-green;
         }
 
         @include mediaMaxWidth(991px) {
             .slide__text {
-                background-color: rgba(233, 156, 126, 0.8);
+                background-color: $color-primary-green;
             }
         }
     }
@@ -145,16 +145,16 @@ svg {
 
         .slide__bg {
             left: -50%;
-            background-image: url('../../img/epic2016.jpg');
+            background-image: url('../img/epic2016.jpg');
         }
 
         .slide__overlay-path {
-            fill: rgb(225, 204, 174);
+            fill: $color-primary-green;
         }
 
         @include mediaMaxWidth(991px) {
             .slide__text {
-                background-color: rgba(225, 204, 174, 0.8);
+                background-color: $color-primary-green;
             }
         }
     }
@@ -164,16 +164,16 @@ svg {
 
         .slide__bg {
             left: -100%;
-            background-image: url('../../img/epic2016.jpg');
+            background-image: url('../img/epic2016.jpg');
         }
 
         .slide__overlay-path {
-            fill: rgb(173, 197, 205);
+            fill: $color-primary-green;
         }
 
         @include mediaMaxWidth(991px) {
             .slide__text {
-                background-color: rgba(173, 197, 205, 0.8);
+                background-color: $color-primary-green;
             }
         }
     }
@@ -227,7 +227,7 @@ svg {
 
     &__text {
         position: absolute;
-        width: 25%;
+        width: 35%;
         bottom: 15%;
         left: 12%;
         color: #fff;
@@ -248,7 +248,7 @@ svg {
         }
 
         &-heading {
-            font-family: $polar;
+            font-family: MedievalSharp;
             font-size: 5rem;
             margin-bottom: 2rem;
 
@@ -259,7 +259,7 @@ svg {
         }
 
         &-desc {
-            font-family: $openSans;
+            font-family: MedievalSharp;
             font-size: 1.8rem;
             margin-bottom: 1.5rem;
 
@@ -274,9 +274,10 @@ svg {
             position: relative;
             padding: 0.5rem;
             cursor: pointer;
-            font-family: $openSans;
+            font-family: MedievalSharp;
             font-size: 2.3rem;
             perspective: 1000px;
+            color: inherit;
 
             @include mediaMaxWidth(991px) {
                 display: none;
