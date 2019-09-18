@@ -268,6 +268,22 @@ body {
   .calendar-box--row .col {
     padding: 0 2rem; }
 
+.shop-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  transition: transform .3s; }
+  .shop-box img {
+    width: 15rem; }
+  .shop-box a {
+    color: inherit;
+    text-decoration: none; }
+  .shop-box:hover {
+    transform: translateY(-1.5rem) scale(1.03); }
+
 .card {
   perspective: 150rem;
   position: relative;
@@ -590,30 +606,30 @@ svg {
       left: 0;
       background-image: url("../img/epic2016.jpg"); }
     .slide:nth-child(1) .slide__overlay-path {
-      fill: #e99c7e; }
+      fill: #013c3f; }
     @media (max-width: 991px) {
       .slide:nth-child(1) .slide__text {
-        background-color: rgba(233, 156, 126, 0.8); } }
+        background-color: #013c3f; } }
   .slide:nth-child(2) {
     left: 100%; }
     .slide:nth-child(2) .slide__bg {
       left: -50%;
       background-image: url("../img/epic2016.jpg"); }
     .slide:nth-child(2) .slide__overlay-path {
-      fill: #e1ccae; }
+      fill: #013c3f; }
     @media (max-width: 991px) {
       .slide:nth-child(2) .slide__text {
-        background-color: rgba(225, 204, 174, 0.8); } }
+        background-color: #013c3f; } }
   .slide:nth-child(3) {
     left: 200%; }
     .slide:nth-child(3) .slide__bg {
       left: -100%;
       background-image: url("../img/epic2016.jpg"); }
     .slide:nth-child(3) .slide__overlay-path {
-      fill: #adc5cd; }
+      fill: #013c3f; }
     @media (max-width: 991px) {
       .slide:nth-child(3) .slide__text {
-        background-color: rgba(173, 197, 205, 0.8); } }
+        background-color: #013c3f; } }
   .slide:nth-child(4) {
     left: 300%; }
     .slide:nth-child(4) .slide__bg {
@@ -647,7 +663,7 @@ svg {
       opacity: 0.8; }
   .slide__text {
     position: absolute;
-    width: 25%;
+    width: 35%;
     bottom: 15%;
     left: 12%;
     color: #fff;
@@ -666,7 +682,7 @@ svg {
         transition: transform 0.5s 0.5s, opacity 0.5s 0.5s;
         padding: 0 1rem; } }
     .slide__text-heading {
-      font-family: "Polar", Helvetica, Arial, sans-serif;
+      font-family: MedievalSharp;
       font-size: 5rem;
       margin-bottom: 2rem; }
       @media (max-width: 991px) {
@@ -674,7 +690,7 @@ svg {
           line-height: 20rem;
           font-size: 3.5rem; } }
     .slide__text-desc {
-      font-family: "Open Sans", Helvetica, Arial, sans-serif;
+      font-family: MedievalSharp;
       font-size: 1.8rem;
       margin-bottom: 1.5rem; }
       @media (max-width: 991px) {
@@ -686,9 +702,10 @@ svg {
       position: relative;
       padding: 0.5rem;
       cursor: pointer;
-      font-family: "Open Sans", Helvetica, Arial, sans-serif;
+      font-family: MedievalSharp;
       font-size: 2.3rem;
-      perspective: 1000px; }
+      perspective: 1000px;
+      color: inherit; }
       @media (max-width: 991px) {
         .slide__text-link {
           display: none; } }
@@ -967,6 +984,8 @@ svg {
   margin-top: -10rem; }
 
 .section-stories {
+  background-image: linear-gradient(to right bottom, rgba(247, 247, 247, 0.8), rgba(238, 238, 238, 0.8)), url(../img/vikings-1.jpg);
+  background-size: cover;
   padding: 15rem 0;
   position: relative; }
 
