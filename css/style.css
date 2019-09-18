@@ -842,6 +842,7 @@ svg {
   top: 0;
   left: 0;
   z-index: 1500;
+  pointer-events: none;
   opacity: 0;
   width: 0;
   transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
@@ -883,7 +884,8 @@ svg {
 
 .navigation__checkbox:checked ~ .navigation__nav {
   opacity: 1;
-  width: 100%; }
+  width: 100%;
+  pointer-events: all; }
 
 .navigation__icon {
   position: relative;
@@ -919,9 +921,6 @@ svg {
 .navigation__checkbox:checked + .navigation__button .navigation__icon::after {
   top: 0;
   transform: rotate(-135deg); }
-
-.navigation__checkbox:checked ~ .navigation__link {
-  pointer-events: none; }
 
 .fog {
   position: relative;
